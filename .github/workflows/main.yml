@@ -13,4 +13,4 @@ jobs:
       - name: Install dependencies
         run: pip install pytest
       - name: Run Pytest
-        run: pytest # Robot sẽ tự tìm các file trong thư mục tests/ để chạy
+        run: python -m pytest # Robot sẽ tự tìm các file trong thư mục tests/ để chạy
